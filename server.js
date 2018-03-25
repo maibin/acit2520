@@ -62,5 +62,6 @@ app.get('/404', (request, response) => {
 })
 
 app.listen(port, () => {
-    console.log(`Server is up on the port ${port} - finally!`);
+    console.log(`Server is up on the port ${port}`);
+    console.log('Test wisely!');
 });
